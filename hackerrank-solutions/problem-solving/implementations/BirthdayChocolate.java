@@ -1,4 +1,4 @@
-package com.hackerrank.problemsolving.implementations;
+package implementations;
 
 import static java.util.stream.Collectors.toList;
 

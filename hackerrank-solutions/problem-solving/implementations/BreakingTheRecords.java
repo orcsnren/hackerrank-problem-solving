@@ -1,4 +1,4 @@
-package com.hackerrank.problemsolving.implementations;
+package implementations;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
