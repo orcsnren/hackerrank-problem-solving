@@ -21,7 +21,6 @@ public class CavityMap {
 				int up = Character.getNumericValue(grid[i - 1].charAt(j));
 				int down = Character.getNumericValue(grid[i + 1].charAt(j));
 				int middle = Character.getNumericValue(grid[i].charAt(j));
-				char mid = grid[i].charAt(j);
 				if (left < middle && up < middle && right < middle && down < middle) {
 					StringBuilder sb = new StringBuilder(grid[i]);
 					sb.setCharAt(j, 'X');
